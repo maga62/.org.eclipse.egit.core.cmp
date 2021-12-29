@@ -1,0 +1,22 @@
+package upcasting;
+
+public class Manager {
+String departmentManaged;
+	
+	public static final int MANAGEMENT_PAYMENT = 500;
+	
+	
+	
+	public Directory(String departmentManaged) {
+		super();
+		this.departmentManaged = departmentManaged;
+	}
+	
+	public String getDepartmentManaged() {
+		return departmentManaged;
+	}
+	public void setDepartmentManaged(String departmentManaged) {
+		this.departmentManaged = departmentManaged;
+	}
+
+}
